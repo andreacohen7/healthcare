@@ -109,8 +109,7 @@ The data was then prepared for machine learning by cleaning it.
 #### Models Evaluated and Results:
 
 - Random Forest Classifier with SMOTE:
-
-using decision trees to predict strokes
+- using decision trees to predict strokes
   - Test Scores
     - accuracy for making correct predictions on the test set:  95% 
     - precision for predicting the stroke class:  33% 
@@ -119,8 +118,7 @@ using decision trees to predict strokes
   - Using SMOTE and tuning the hyperparameters helped the Random Forest Classifier predict the stroke class.
 
 - Logistic Regression Model with SMOTE:
-
-using logistic regression to predict strokes
+- using logistic regression to predict strokes
   - Test Scores
     - accuracy for making correct predictions on the test set:  95% 
     - precision for predicting the stroke class:  0% 
@@ -129,8 +127,7 @@ using logistic regression to predict strokes
   - Using SMOTE did not help the Logistic Regression Model predict the stroke class.
 
 - LightGBM Model with SMOTE:
- 
-using gradient boosting to predict strokes
+- using gradient boosting to predict strokes
   - Test Scores
     - accuracy for making correct predictions on the test set:  93% 
     - precision for predicting the stroke class:  11% 
@@ -141,8 +138,7 @@ using gradient boosting to predict strokes
   - Because of the high cost of false negatives (predicting no stroke when, in fact, there will be a stroke), these errors must be reduced--the tuned LightGBM with SMOTE had the lowest false negative rate so far.
 
 - LightGBM with SMOTE and Principal Component Analysis:
-
-using gradient boosting with dimensionality reduction to predict strokes
+- using gradient boosting with dimensionality reduction to predict strokes
   - Test Scores
     - accuracy for making correct predictions on the test set:  93% 
     - precision for predicting the stroke class:  11% 
@@ -151,8 +147,7 @@ using gradient boosting with dimensionality reduction to predict strokes
   - Using PCA did not help the LightGBM with SMOTE predict the stroke class.
   
 - LightGBM with SMOTE and Feature Engineering:
-
-using gradient boosting with feature engineering to predict strokes
+- using gradient boosting with feature engineering to predict strokes
   - Test Scores
     - accuracy for making correct predictions on the test set:  93% 
     - precision for predicting the stroke class:  19% 
