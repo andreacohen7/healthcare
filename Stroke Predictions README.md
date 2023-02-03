@@ -73,7 +73,7 @@ The data was then prepared for machine learning by cleaning it.
 
   - The target classes are severely imbalanced (95.13% of the samples did not have a stroke and 4.87% of the samples had a stroke).
 
-#### Graphs to view behavioral characteristics
+#### Graphs to view medical characteristics
 
 ![Medical Characteristics.png](https://github.com/andreacohen7/healthcare/blob/main/Medical%20Characteristics.png)
 
