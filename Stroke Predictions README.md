@@ -108,7 +108,7 @@ The data was then prepared for machine learning by cleaning it.
 
 #### Models Evaluated and Results:
 
-- Random Forest Classifier with SMOTE:
+- **Random Forest Classifier with SMOTE:**
 - using decision trees to predict strokes
   - Test Scores
     - accuracy for making correct predictions on the test set:  95% 
@@ -117,7 +117,7 @@ The data was then prepared for machine learning by cleaning it.
     - type 2 (false negative) errors:  95%
   - Using SMOTE and tuning the hyperparameters helped the Random Forest Classifier predict the stroke class.
 
-- Logistic Regression Model with SMOTE:
+- **Logistic Regression Model with SMOTE:**
 - using logistic regression to predict strokes
   - Test Scores
     - accuracy for making correct predictions on the test set:  95% 
@@ -126,7 +126,7 @@ The data was then prepared for machine learning by cleaning it.
     - type 2 (false negative) errors:  100%
   - Using SMOTE did not help the Logistic Regression Model predict the stroke class.
 
-- LightGBM Model with SMOTE:
+- **LightGBM Model with SMOTE:**
 - using gradient boosting to predict strokes
   - Test Scores
     - accuracy for making correct predictions on the test set:  93% 
@@ -137,7 +137,7 @@ The data was then prepared for machine learning by cleaning it.
   - Because of the class imbalance, the final model must predict well for the stroke class--the tuned LightGBM with SMOTE was best so far at predicting the stroke class.
   - Because of the high cost of false negatives (predicting no stroke when, in fact, there will be a stroke), these errors must be reduced--the tuned LightGBM with SMOTE had the lowest false negative rate so far.
 
-- LightGBM with SMOTE and Principal Component Analysis:
+- **LightGBM with SMOTE and Principal Component Analysis:**
 - using gradient boosting with dimensionality reduction to predict strokes
   - Test Scores
     - accuracy for making correct predictions on the test set:  93% 
@@ -146,7 +146,7 @@ The data was then prepared for machine learning by cleaning it.
     - type 2 (false negative) errors:  94%
   - Using PCA did not help the LightGBM with SMOTE predict the stroke class.
   
-- LightGBM with SMOTE and Feature Engineering:
+- **LightGBM with SMOTE and Feature Engineering:**
 - using gradient boosting with feature engineering to predict strokes
   - Test Scores
     - accuracy for making correct predictions on the test set:  93% 
