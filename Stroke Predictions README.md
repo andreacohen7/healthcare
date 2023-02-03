@@ -74,12 +74,12 @@ The target classes are severely imbalanced (95.13% of the samples did not have a
 
 #### Graphs to view behavioral characteristics
 
-![Behavioral Characteristics.png](https://github.com/andreacohen7/healthcare/blob/main/Behavioral%20Characteristics.png)
+![Medical Characteristics.png](https://github.com/andreacohen7/healthcare/blob/main/Medical%20Characteristics.png)
 
-  - The majority of patients were married.
-  - The majority of patients were privately employed.
-  - The distribution of residence types (urban and rural) was even.
-  - The majority of patients had never smoked or their smoking status was unknown.
+  - The distribution of hypertension is significantly unbalanced--the majority of patients did not have hypertension.
+  - The distribution of heart disease is significantly unbalanced--the majority of patients did not have heart disease.
+  - The distribution of glucose levels is right-skewed, with the majority of patients having lower average glucose levels.
+  - The distribution of BMI is right skewed, with the majority of patients having lower BMI's.
 
 ### Multivariate Exploratory Visualizations:
 
