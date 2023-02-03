@@ -38,6 +38,7 @@ The data was first inspected.
   - no duplicates were noted
   - no inconsistencies in categorical data were noted
   - the imbalance of the target class was noted
+
 The data was then prepared for machine learning by cleaning it.
 - For machine learning with the Random Forest Classifier: 
   - a preprocessor was used for mean imputation for float columns and one-hot encoding of categorical columns
