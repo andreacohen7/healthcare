@@ -57,9 +57,12 @@ The data was then prepared for machine learning by cleaning it.
   - a model pipeline was created for scaling the numerical data, dealing with the target class imbalance through SMOTE, applying PCA while retaining 95% of the variance, and for the model
   - GridSearchCV was used to tune the model's hyperparameters
 - For machine learning with Feature Engineering:
-  - columns without predictive information were deleted--(Multivariate visualizations showed that there was no relationship between the gender of the patient and strokes. They also showed that there is no difference in urban vs rural residences and strokes. Eliminating these data might help the model better predict strokes.)
-  - columns with limited predictive information were combined--(Multivariate visualizations showed that both of these features increased strokes. However, there are other reasons, besides the risk of stroke, that affect patients' choices for marriage and work. Combining these data might help the model better predict strokes, based on factors more related to the risk of stroke.)
-  - columns with numerical medical data were binned into categories (because some of the medical characteristics are already categorical.)
+  - columns without predictive information were deleted
+    - Multivariate visualizations showed that there was no relationship between the gender of the patient and strokes. They also showed that there is no difference in urban vs rural residences and strokes. 
+  - columns with limited predictive information were combined
+    - Multivariate visualizations showed that both of these features increased strokes. However, there are other reasons, besides the risk of stroke, that affect patients' choices for marriage and work. 
+  - columns with numerical medical data were binned into categories 
+    - because some of the medical characteristics are already categorical.)
   - a preprocessor was used for mean imputation for float columns and one-hot encoding of categorical columns
   - a model pipeline was created for scaling the numerical data, dealing with the target class imbalance through SMOTE, and for the model
   - GridSearchCV was used to tune the model's hyperparameters
